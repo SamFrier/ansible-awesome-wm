@@ -10,6 +10,7 @@
     become: true
     with_items:
       - cmake
+      - doxygen
       - libxdg-basedir-dev
       - libstartup-notification0-dev
       - libcairo2-dev
@@ -20,6 +21,8 @@
       - libxcb-util-dev
       - libxcb-keysyms1-dev
       - libxcb-icccm4-dev
+      - libxcb-randr0-dev
+      - libxcb-shape0-dev
       # from sudo apt-get build-dep awesome
       - liblua5.1-0-dev
       - asciidoc
