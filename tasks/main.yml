@@ -35,6 +35,7 @@
       - lua-filesystem
       - lua-ldoc
       - lua-penlight
+      - lua-lgi 
       - po-debconf
       - sgml-data
       - xmlto
