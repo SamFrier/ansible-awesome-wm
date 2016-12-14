@@ -57,6 +57,6 @@
       dest: '/tmp/'
 
   - name: make stuff
-    shell: cmake -DCMAKE_INSTALL_PREFIX={{ install_dir }} && make && make install
+    shell: make && make install #cmake -DCMAKE_INSTALL_PREFIX={{ install_dir }} && make && make install
     args:
       chdir: '/tmp/{{ awesome_version_table[awesome_version].dir }}'
